@@ -1,0 +1,13 @@
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="utilities.ExtentReportUtility"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/2494367/Downloads/Testing/src/test/java/testcases/LoginPageTest.java">
+
+        <classes>
+            <class name="testcases.AdminLoginTest"></class>
+            <class name="testcases.UserLoginTest"></class>
+        </classes>
+
+    </test>
+</suite>

@@ -1,0 +1,28 @@
+10:06:16.249[main] INFO  testbases.BaseClass - Ths is starting
+14:06:36.480[main] INFO  testbases.BaseClass - Ths is starting
+14:06:10.259[main] INFO  testbases.BaseClass - Ths is starting
+14:06:17.707[main] INFO  testbases.BaseClass - Ths is starting
+14:06:14.093[main] INFO  testbases.BaseClass - Ths is starting
+14:06:01.953[main] INFO  testbases.BaseClass - Ths is starting
+14:06:38.021[main] INFO  testbases.BaseClass - Ths is starting
+14:06:35.629[main] INFO  testbases.BaseClass - Ths is starting
+14:06:51.504[main] INFO  testbases.BaseClass - Ths is starting
+14:06:06.261[main] INFO  testbases.BaseClass - Ths is starting
+14:06:02.855[main] INFO  testbases.BaseClass - Ths is starting
+14:06:34.830[main] INFO  testbases.BaseClass - Ths is starting
+10:06:27.989[main] INFO  testcases.AdminLoginTest - Ths is starting
+10:06:34.722[main] INFO  testcases.AdminLoginTest - Login test Start
+10:06:28.274[main] INFO  testcases.AdminLoginTest - Ths is starting
+10:06:31.937[main] INFO  testcases.AdminLoginTest - Login test Start
+10:06:37.524[main] INFO  testcases.AdminLoginTest - Ths is starting
+10:06:42.225[main] INFO  testcases.AdminLoginTest - Login test Start
+10:06:29.075[main] INFO  testcases.AdminLoginTest - Ths is starting
+10:06:33.593[main] INFO  testcases.AdminLoginTest - Login test Start
+10:06:31.821[main] INFO  testcases.AdminLoginTest - Ths is starting
+10:06:36.897[main] INFO  testcases.AdminLoginTest -  Admin Login test Start
+10:06:37.625[main] INFO  testcases.UserLoginTest - Ths is starting
+10:06:41.972[main] INFO  testcases.UserLoginTest -  Admin Login test Start
+10:06:53.440[main] INFO  testcases.AdminLoginTest - Ths is starting
+10:06:58.713[main] INFO  testcases.AdminLoginTest -  Admin Login test Start
+10:06:59.936[main] INFO  testcases.UserLoginTest - Ths is starting
+10:06:03.551[main] INFO  testcases.UserLoginTest -  Admin Login test Start
