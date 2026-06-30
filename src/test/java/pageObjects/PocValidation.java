@@ -5,11 +5,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import testbases.BAsePage;
+import testbases.BasePage;
 
 import java.time.Duration;
 
-public class PocValidation extends BAsePage {
+public class PocValidation extends BasePage {
 
     WebDriverWait wait;
 

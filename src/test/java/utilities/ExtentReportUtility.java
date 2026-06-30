@@ -22,23 +22,23 @@ public class ExtentReportUtility implements ITestListener {
     String repName;
 
     public void onStart(ITestContext context){
-       SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
-       Date dt =  new Date();
-       String cdate = sdf.format(dt);
-       repName = "Test-Report"+cdate+".html";
-       spark = new ExtentSparkReporter(".\\reports\\"+repName);
-       spark.config().setDocumentTitle("Test Report");
-       spark.config().setReportName("Test Report");
-       spark.config().setTheme(Theme.STANDARD);
-       extent = new ExtentReports();
-       extent.attachReporter(spark);
-       extent.setSystemInfo("Windows","2294367");
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
+        Date dt =  new Date();
+        String cdate = sdf.format(dt);
+        repName = "Test-Report"+cdate+".html";
+        spark = new ExtentSparkReporter(".\\reports\\"+repName);
+        spark.config().setDocumentTitle("Test Report");
+        spark.config().setReportName("Test Report");
+        spark.config().setTheme(Theme.STANDARD);
+        extent = new ExtentReports();
+        extent.attachReporter(spark);
+        extent.setSystemInfo("Windows","2294367");
         List<String> incG = context.getCurrentXmlTest().getIncludedGroups();
         if(!incG.isEmpty()) {
             extent.setSystemInfo("Groups", incG.toString());
         }
 
-        }
+    }
     public void onTestSuccess(ITestResult result){
         test = extent.createTest(result.getTestClass().getName());
         test.assignCategory(result.getMethod().getGroups());
@@ -50,7 +50,9 @@ public class ExtentReportUtility implements ITestListener {
         test.log(Status.FAIL,result.getName()+"test not executed");
         test.log(Status.INFO,result.getThrowable().getMessage());
         try{
-            String imgPath = new BaseClass().captureScreenshot(result.getName());
+            // Get the actual test instance with initialized driver
+            BaseClass testInstance = (BaseClass) result.getInstance();
+            String imgPath = testInstance.captureScreenshot(result.getName());
             test.addScreenCaptureFromPath(imgPath);
         }catch(IOException e){
             e.printStackTrace();

@@ -6,12 +6,16 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.*;
 
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.UUID;
 
 public class BaseClass {
     public static WebDriver driver;
@@ -22,15 +26,16 @@ public class BaseClass {
         logger = LogManager.getLogger(this.getClass());
         logger.info("Ths is starting");
         driver = new ChromeDriver();
-        driver.get("https://sync-inv2.vercel.app/");
+        //driver.get("https://sync-inv2.vercel.app/");
+        driver.get("http://localhost:4200/");
         driver.manage().window().maximize();
 
     }
 
-//    @AfterSuite
-//    public void tearDown() {
-//        driver.quit();
-//    }
+    @AfterSuite
+    public void tearDown() {
+        driver.quit();
+    }
 
     public String captureScreenshot(String tname) throws IOException{
         String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss_SSS").format(new Date());
@@ -41,4 +46,5 @@ public class BaseClass {
         screenshot.renameTo(targetFile);
         return tfp;
     }
+
 }
