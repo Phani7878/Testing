@@ -5,12 +5,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import testbases.BAsePage;
-import testbases.BaseClass;
+import testbases.BasePage;
 
 import java.time.Duration;
 
-public class Logout extends BAsePage {
+public class Logout extends BasePage {
     WebDriver driver;
     WebDriverWait wait;
     public Logout(WebDriver driver) {

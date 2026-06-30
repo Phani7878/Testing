@@ -1,17 +1,15 @@
 package pageObjects;
 
-import org.apache.commons.math3.analysis.function.Exp;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import testbases.BAsePage;
+import testbases.BasePage;
 
 import java.time.Duration;
 
-public class UserLogin extends BAsePage {
+public class UserLogin extends BasePage {
     WebDriver driver;
     WebDriverWait wait;
     public UserLogin(WebDriver driver) {
@@ -39,13 +37,24 @@ public class UserLogin extends BAsePage {
     WebElement userLogout;
     @FindBy(xpath = "//p[@class='text-sm font-medium text-red-900']")
     WebElement failedmsg;
+
+    //---------------------------Nikhil----------------------------
+    @FindBy(xpath = "//*[contains(text(),'Login Failed')]")
+    WebElement loginFailedErrorMsg;
+
+    //-----------------------------------------------------------
     public void clickUser(){
+        wait.until(ExpectedConditions.elementToBeClickable(userlogin));
         userlogin.click();
     }
+
     public void sendUserName(String userName){
+        userId.clear();
         userId.sendKeys(userName);
     }
+
     public void sendUserPassword(String pwd){
+        userPwd.clear();
         userPwd.sendKeys(pwd);
     }
     public void clickUserLoginButton(){
@@ -71,5 +80,17 @@ public class UserLogin extends BAsePage {
     public String failedDisplay(){
         wait.until(ExpectedConditions.visibilityOf(failedmsg));
         return failedmsg.getText();
+    }
+
+
+
+    public void waitTillErrorDisplayed(){
+        wait.until(ExpectedConditions.visibilityOf(loginFailedErrorMsg));
+    }
+    public String getErrorMessage(){
+        return loginFailedErrorMsg.getText();
+    }
+    public void gotoHome(){
+        driver.navigate().back();
     }
 }

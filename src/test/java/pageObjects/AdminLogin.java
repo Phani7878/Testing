@@ -1,16 +1,15 @@
 package pageObjects;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import testbases.BAsePage;
+import testbases.BasePage;
 
 import java.time.Duration;
 
-public class AdminLogin extends BAsePage {
+public class AdminLogin extends BasePage {
     WebDriver driver;
     WebDriverWait wait;
     public AdminLogin(WebDriver driver) {
