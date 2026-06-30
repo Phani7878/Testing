@@ -4,15 +4,13 @@
         <listener class-name="utilities.ExtentReportUtility"/>
     </listeners>
 
-    <test verbose="2" preserve-order="true" name="C:/Users/2494367/Downloads/Testing/src/test/java/testcases/AdminLoginTest.java">
+    <test verbose="2" preserve-order="true" name="CR Module Test Suite (TC-CR-027 to TC-CR-037)">
         <classes>
-<!--            <class name="testcases.TS_01_ADMIN_LOGIN_AND_VALIDATION"/>-->
-<!--           <class name="testcases.TS_03_POCLOGIN"/>-->
-<!--            <class name="testcases.TS_02_ADMIN_validating_POC"/>-->
-<!--            <class name="testcases.TS_03_POCVALIDATION"/>-->
-<!--            <class name="testcases.TS_02_DuplicatePOC"></class>-->
-<!--            <class name="testcases.TC_006_ADM"></class>-->
-            <class name="testcases.TC_007_CheckForPoc"></class>
+            <class name="testcases.TC_CR_027_028_CRLoginTests"/>
+            <class name="testcases.TC_CR_029_030_031_CRTokenTests"/>
+            <class name="testcases.TC_CR_032_CRSelfAttendanceTest"/>
+            <class name="testcases.TC_CR_033_034_035_CRDefaulterTests"/>
+            <class name="testcases.TC_CR_036_037_CRAnalyticsAttendanceTests"/>
         </classes>
     </test>
 </suite>
