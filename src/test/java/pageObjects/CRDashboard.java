@@ -6,12 +6,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import testbases.BAsePage;
+import testbases.BasePage;
 
 import java.time.Duration;
 import java.util.List;
 
-public class CRDashboard extends BAsePage {
+public class CRDashboard extends BasePage {
     WebDriver driver;
     WebDriverWait wait;
 

@@ -10,13 +10,13 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import testbases.BAsePage;
+import testbases.BasePage;
 
 /**
  * Page Object for the POC Dashboard (/dashboard route)
  * XPaths derived from: poc-dashboard.html and layout.html
  */
-public class PocDashboardPage extends BAsePage {
+public class PocDashboardPage extends BasePage {
 
     WebDriver driver;
     WebDriverWait wait;
