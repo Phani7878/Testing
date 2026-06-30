@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import testbases.BAsePage;
+import testbases.BasePage;
 
 import java.time.Duration;
 
@@ -13,7 +13,7 @@ import java.time.Duration;
  * Page Object for the User Login page (/  route)
  * XPaths derived from: user-login.html
  */
-public class UserLoginPage extends BAsePage {
+public class UserLoginPage extends BasePage {
 
     WebDriver driver;
     WebDriverWait wait;

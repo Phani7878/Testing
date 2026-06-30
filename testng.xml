@@ -6,7 +6,11 @@
 
     <test name="InternTests">
         <classes>
+            <class name="testcases.TS_14_01_FirstTimeLoginTest"></class>
+            <class name="testcases.TS_14_InternLoginTest"></class>
+            <class name="testcases.TS_15_InternPunchingTest"></class>
             <class name="testcases.TS_16_InternLeaveTest"></class>
+            <class name="testcases.TS_17_InternLeaveStatusTest"></class>
         </classes>
     </test>
 
