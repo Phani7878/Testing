@@ -108,16 +108,19 @@ public class POC_Dashboard_Nikhil extends BasePage {
         openCohort.click();
         wait.until(ExpectedConditions.elementToBeClickable(onboardBtn));
         onboardBtn.click();
-
+        wait.until(ExpectedConditions.visibilityOf(empIDInput));
         empIDInput.clear();
         empIDInput.sendKeys(id);
+        wait.until(ExpectedConditions.visibilityOf(fullNameInput));
         fullNameInput.clear();
         fullNameInput.sendKeys(fullName);
+        wait.until(ExpectedConditions.visibilityOf(emailInput));
         emailInput.clear();
         emailInput.sendKeys(email);
+        wait.until(ExpectedConditions.visibilityOf(mobileInput));
         mobileInput.clear();
         mobileInput.sendKeys(mobile);
-
+        wait.until(ExpectedConditions.elementToBeClickable(submitOnboardBtn));
         submitOnboardBtn.click();
         wait.until(ExpectedConditions.visibilityOf(onboardSuccessMsg));
         wait.until(ExpectedConditions.visibilityOf(tempPassword));

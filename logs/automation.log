@@ -11,3 +11,12 @@
 00:06:53.849[main] INFO  testcases.TS_14_01_FirstTimeLoginTest - Ths is starting
 00:06:46.969[main] INFO  testcases.TS_14_01_FirstTimeLoginTest - Ths is starting
 00:06:06.823[main] INFO  testcases.TS_14_01_FirstTimeLoginTest - Ths is starting
+10:06:48.810[main] INFO  testcases.TS_14_InternLoginTest - Ths is starting
+10:06:20.497[main] INFO  testcases.TS_14_01_FirstTimeLoginTest - Ths is starting
+10:06:49.227[main] INFO  testcases.TS_14_01_FirstTimeLoginTest - Ths is starting
+10:06:47.259[main] INFO  testcases.TS_14_01_FirstTimeLoginTest - Ths is starting
+10:06:35.647[main] INFO  testcases.TC_006_ADM - Ths is starting
+10:06:38.461[main] INFO  testcases.TC_006_ADM - Running TC_ADM_006 test...
+10:06:39.049[main] INFO  testcases.TC_006_ADM - Validating POC Account
+10:06:40.578[main] INFO  testcases.TC_006_ADM - Completed Validating POC Account
+10:06:10.440[main] INFO  testcases.TS_14_01_FirstTimeLoginTest - Ths is starting
