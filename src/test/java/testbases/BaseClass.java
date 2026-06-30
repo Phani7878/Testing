@@ -21,7 +21,7 @@ public class BaseClass {
     public static WebDriver driver;
     public static Logger logger;
 
-    @BeforeSuite
+    @BeforeClass
     public void setUp() {
         logger = LogManager.getLogger(this.getClass());
         logger.info("Ths is starting");
@@ -32,7 +32,7 @@ public class BaseClass {
 
     }
 
-    @AfterSuite
+    @AfterClass
     public void tearDown() {
         driver.quit();
     }

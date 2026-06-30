@@ -4,27 +4,25 @@
         <listener class-name="utilities.ExtentReportUtility"/>
     </listeners>
 
-    <test name="InternTests">
-        <classes>
-            <class name="testcases.TS_14_01_FirstTimeLoginTest"></class>
-            <class name="testcases.TS_14_InternLoginTest"></class>
-            <class name="testcases.TS_15_InternPunchingTest"></class>
-            <class name="testcases.TS_16_InternLeaveTest"></class>
-            <class name="testcases.TS_17_InternLeaveStatusTest"></class>
-        </classes>
-    </test>
-
-<!--    <test verbose="2" preserve-order="true" name="C:/Users/2494367/Downloads/Testing/src/test/java/testcases/AdminLoginTest.java">-->
+<!--    <test name="InternTests">-->
 <!--        <classes>-->
-<!--&lt;!&ndash;            <class name="testcases.TS_01_ADMIN_LOGIN_AND_VALIDATION"/>&ndash;&gt;-->
-<!--&lt;!&ndash;           <class name="testcases.TS_03_POCLOGIN"/>&ndash;&gt;-->
-<!--&lt;!&ndash;            <class name="testcases.TS_02_ADMIN_validating_POC"/>&ndash;&gt;-->
-<!--&lt;!&ndash;            <class name="testcases.TS_03_POCVALIDATION"/>&ndash;&gt;-->
-<!--&lt;!&ndash;            <class name="testcases.TS_02_DuplicatePOC"></class>&ndash;&gt;-->
-<!--&lt;!&ndash;            <class name="testcases.TC_006_ADM"></class>&ndash;&gt;-->
-<!--&lt;!&ndash;            <class name="testcases.TC_007_CheckForPoc"></class>&ndash;&gt;-->
-<!--            -->
-<!--            -->
+<!--            <class name="testcases.TS_14_01_FirstTimeLoginTest"></class>-->
+<!--            <class name="testcases.TS_14_InternLoginTest"></class>-->
+<!--            <class name="testcases.TS_15_InternPunchingTest"></class>-->
+<!--            <class name="testcases.TS_16_InternLeaveTest"></class>-->
+<!--            <class name="testcases.TS_17_InternLeaveStatusTest"></class>-->
 <!--        </classes>-->
 <!--    </test>-->
+
+    <test verbose="2" preserve-order="true" name="C:/Users/2494367/Downloads/Testing/src/test/java/testcases/AdminLoginTest.java">
+        <classes>
+            <class name="testcases.TS_01_ADMIN_LOGIN_AND_VALIDATION"/>
+           <class name="testcases.TS_03_POCLOGIN"/>
+            <class name="testcases.TS_02_ADMIN_validating_POC"/>
+            <class name="testcases.TS_03_POCVALIDATION"/>
+            <class name="testcases.TS_02_DuplicatePOC"></class>
+            <class name="testcases.TC_006_ADM"></class>
+            <class name="testcases.TC_007_CheckForPoc"></class>
+        </classes>
+    </test>
 </suite>

@@ -34,7 +34,7 @@ public class TS_14_01_FirstTimeLoginTest extends BaseClass {
         loginAsUser("123","12345678");
         poc_db = new POC_Dashboard_Nikhil(driver);
         // 2. Wait 2 seconds for the enterprise popup to completely render
-        Thread.sleep(2000);
+        Thread.sleep(4000);
 
         try {
             Robot robot = new Robot();

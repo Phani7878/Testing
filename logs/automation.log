@@ -20,3 +20,37 @@
 10:06:39.049[main] INFO  testcases.TC_006_ADM - Validating POC Account
 10:06:40.578[main] INFO  testcases.TC_006_ADM - Completed Validating POC Account
 10:06:10.440[main] INFO  testcases.TS_14_01_FirstTimeLoginTest - Ths is starting
+12:06:47.709[main] INFO  testcases.TS_14_01_FirstTimeLoginTest - Ths is starting
+12:06:34.548[main] INFO  testcases.TS_14_01_FirstTimeLoginTest - Ths is starting
+12:06:04.537[main] INFO  testcases.TS_14_01_FirstTimeLoginTest - Ths is starting
+12:06:47.005[main] INFO  testcases.TS_14_01_FirstTimeLoginTest - Ths is starting
+12:06:15.990[main] INFO  testcases.TS_14_InternLoginTest - Ths is starting
+12:06:28.082[main] INFO  testcases.TS_14_01_FirstTimeLoginTest - Ths is starting
+12:06:24.486[main] INFO  testcases.TS_14_01_FirstTimeLoginTest - Ths is starting
+12:06:00.662[main] INFO  testcases.TS_14_01_FirstTimeLoginTest - Ths is starting
+12:06:19.961[main] INFO  testcases.TS_14_InternLoginTest - Ths is starting
+12:06:34.235[main] INFO  testcases.TS_15_InternPunchingTest - Ths is starting
+12:06:23.654[main] INFO  testcases.TS_16_InternLeaveTest - Ths is starting
+12:06:05.570[main] INFO  testcases.TS_17_InternLeaveStatusTest - Ths is starting
+12:06:04.605[main] INFO  testcases.TS_01_ADMIN_LOGIN_AND_VALIDATION - Ths is starting
+12:06:08.492[main] INFO  testcases.TS_01_ADMIN_LOGIN_AND_VALIDATION -  Admin Login test Start
+12:06:10.435[main] INFO  testcases.TS_01_ADMIN_LOGIN_AND_VALIDATION -  Admin Login test End
+12:06:10.453[main] INFO  testcases.TS_01_ADMIN_LOGIN_AND_VALIDATION -  Admin Login test Start
+12:06:21.266[main] INFO  testcases.TS_01_ADMIN_LOGIN_AND_VALIDATION -  Admin Login test End
+12:06:21.269[main] INFO  testcases.TS_01_ADMIN_LOGIN_AND_VALIDATION -  Admin Login test Start
+12:06:32.035[main] INFO  testcases.TS_01_ADMIN_LOGIN_AND_VALIDATION -  Admin Login test End
+12:06:34.193[main] INFO  testcases.TS_03_POCLOGIN - Ths is starting
+12:06:36.455[main] INFO  testcases.TS_03_POCLOGIN -  poc Login test Start
+12:06:00.006[main] INFO  testcases.TS_02_ADMIN_validating_POC - Ths is starting
+12:06:03.357[main] INFO  testcases.TS_02_ADMIN_validating_POC - Validating POC Account
+12:06:08.315[main] INFO  testcases.TS_03_POCVALIDATION - Ths is starting
+12:06:10.482[main] INFO  testcases.TS_03_POCVALIDATION - New poc Login Test
+12:06:14.639[main] INFO  testcases.TS_02_DuplicatePOC - Ths is starting
+12:06:17.740[main] INFO  testcases.TS_02_DuplicatePOC - Validating POC Account
+12:06:22.375[main] INFO  testcases.TC_006_ADM - Ths is starting
+12:06:24.571[main] INFO  testcases.TC_006_ADM - Running TC_ADM_006 test...
+12:06:25.473[main] INFO  testcases.TC_006_ADM - Validating POC Account
+12:06:27.676[main] INFO  testcases.TC_006_ADM - Completed Validating POC Account
+12:06:29.687[main] INFO  testcases.TC_007_CheckForPoc - Ths is starting
+12:06:32.366[main] INFO  testcases.TC_007_CheckForPoc - Creating POC Account
+12:06:35.343[main] INFO  testcases.TC_007_CheckForPoc - POC name verified successfully.
